@@ -1,0 +1,11 @@
+Changes
+lib/Mojar/UserAgent.pm
+LICENSE
+Makefile.PL
+MANIFEST			This list of files
+MANIFEST.SKIP
+README.md
+test/00-load.t
+test/manifest.t
+test/pod.t
+test/version.t
