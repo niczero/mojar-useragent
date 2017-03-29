@@ -23,8 +23,9 @@ WriteMakefile(
   BUILD_REQUIRES => {'Test::More' => 0},
   CONFIGURE_REQUIRES => {'ExtUtils::MakeMaker' => 6.3},
   PREREQ_PM => {
-    Mojolicious  => 9.15,
-    'Mojo-UserAgent-CookieJar-Role-Persistent' => 0
+    'Mojo-UserAgent-CookieJar-Role-Persistent' => 0,
+    'Mojolicious' => 9.15,
+    'Role::Tiny' => 2,
   },
   EXE_FILES => [],
   test => {TESTS => 'test/*.t'}
